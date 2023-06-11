@@ -1,0 +1,10 @@
+#!/bin/bash
+
+export PACKAGE_CORE_NAME="codegpt"
+export PACKAGE_CORE_ORG="appleboy"
+export PACKAGE_CORE_BIN_NAME="$PACKAGE_CORE_NAME"
+export PACKAGE_CORE_VERSION="v0.2.2"
+
+export PACKAGE_CORE_GIT_REPOSITORY="https://github.com/${PACKAGE_CORE_ORG}/CodeGPT"
+
+export PACKAGE_CORE_RELEASE_DOWNLOAD="${PACKAGE_CORE_GIT_REPOSITORY}/releases/download"
