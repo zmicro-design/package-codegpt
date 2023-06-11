@@ -13,7 +13,7 @@ help() {
 }
 
 version() {
-  codegpt --version
+  codegpt version
 }
 
 core() {
